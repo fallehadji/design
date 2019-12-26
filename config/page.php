@@ -19,8 +19,8 @@ return [
             "lang" => "sv",
             "stylesheets" => [
                 // Change here to set another default stylesheet
-                "css/dbwebb-se.min.css",
-                //"css/kmom01.css",
+                //"css/dbwebb-se.min.css",
+                "css/kmom01.css"
             ],
             "javascripts" => [
                 "js/responsive-menu.js",
@@ -80,7 +80,7 @@ return [
                     [
                         "template" => "anax/v2/block/default",
                         "contentRoute" => "block/footer-col-3",
-                    ]
+                    ],
                 ]
             ],
             "sort" => 1

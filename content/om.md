@@ -1,28 +1,21 @@
 ---
-views:
-    kursrepo:
-        region: sidebar-right
-        template: anax/v2/block/default
-        data:
-            meta: 
-                type: single
-                route: block/om-kursrepo
 
-    redovisa:
-        region: sidebar-right
-        template: anax/v2/block/default
-        data:
-            meta: 
-                type: single
-                route: block/om-redovisa
 ---
 Om
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+[FIGURE src=image/about.jpg?w=300 class="right"]
 
-Skriv några kloka ord om kursen?
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
+Denna sida är skapad för kursen design, en del av ett kurspaket i webbprogrammering vid Blekinge Tekniska Högskola.
 
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+*"Kursen Teknisk webbdesign och användbarhet, a.k.a. design, lär webbprogrammeraren att tekniskt förbereda sin webbplats för design och användbarhet.*
+
+*Kursen syftar till en orientering inom områden design och användbarhet, specifikt för tillämpningsområdet webb. Kursen har tekniken som utgångspunkt, där olika tekniker introduceras och används för att underlätta webbdesign och användbarhet för webbplatsen med syftet att skapa en korrekt och användarvänlig webbplats."*
+
+Webbsidan är gjord i ramverket Anax som är skapat av Mikael Roos och är tillgänglig på Github. [https://github.com/mosbth/anax](https://github.com/mosbth/anax)
+
+Länk till kursen på GitHub: [https://github.com/dbwebb-se/design](https://github.com/dbwebb-se/design)
+
+Länk till min GitHub för kursen: [https://github.com/fallehadji/design](https://github.com/fallehadji/design)
+

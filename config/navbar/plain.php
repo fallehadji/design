@@ -29,6 +29,11 @@ return [
             "title" => "Välj stylesheet.",
         ],
         [
+            "text" => "Test",
+            "url" => "test",
+            "title" => "Testsida.",
+        ],
+        [
             "text" => "Verktyg",
             "url" => "verktyg",
             "title" => "Verktyg och möjligheter för utveckling.",
