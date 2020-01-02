@@ -1,0 +1,277 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+  display: none;
+}
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+  display: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrap-sidebar {
+  margin: 0 1em 0 0;
+}
+.region-sidebar-left {
+  float: left;
+}
+img {
+  max-width: 100%;
+}
+ul {
+  list-style-type: none;
+}
+h1 {
+  font: small-caps bold 1.5em helvetica;
+}
+h4 {
+  font: small-caps bold 1.5em helvetica;
+}
+.selected {
+  list-style: outside;
+}
+div ul li a {
+  text-decoration: none;
+  font: small-caps bold 1em helvetica;
+  color: green;
+}
+div ul li a:hover {
+  text-decoration: underline;
+}
+.next-previous {
+  display: none;
+}
+.breadcrumb-list {
+  display: none;
+}
+.level-1 {
+  padding-left: 0.75em;
+}
+.level-2 {
+  padding-left: 1.5em;
+}
+p {
+  padding: 1em 0.2em;
+}
+.outer-wrap {
+  width: 800px;
+  margin: 0 auto;
+}
+.site-logo img {
+  width: 50px;
+}
+.site-logo-text-icon {
+  display: none;
+}
+.site-logo-text {
+  font: small-caps 96px helvetica arial;
+}
+.site-logo-text > a {
+  text-decoration: none;
+  color: green;
+}
+.my-navbar {
+  display: flex;
+  list-style-type: none;
+  font: 1.5em bold arial;
+  margin: 10px 0 5px 0;
+  width: 100%;
+}
+.my-navbar li {
+  flex-grow: 1;
+  flex-shrink: 0;
+  text-align: center;
+}
+.my-navbar li a {
+  display: block;
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  width: 100%;
+  padding: 5px 0;
+}
+.rm-submenu-button {
+  padding: 0 !important;
+}
+article {
+  margin: 2em 0;
+}
+.site-footer {
+  text-align: center;
+  margin-top: 2em;
+}
+.right {
+  float: right;
+}
+.my-navbar li a:hover {
+  background-color: green;
+}
+.region-footer {
+  clear: left;
+}
+.footer-column-x {
+  width: 33%;
+  float: left;
+  margin: 2em 0;
+  border-top: 2px solid green;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.footer-column-1 {
+  border-right: 2px solid green;
+}
+.footer-column-2 {
+  border-right: 2px solid green;
+}
+.byline-div {
+  display: flex;
+  justify-content: center;
+}
+.byline {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  width: 500px;
+  border: 2px solid green;
+  margin-top: 10px;
+  padding-left: 5px;
+  background-color: #fff;
+}
+.byline-img {
+  grid-column: 1;
+  grid-row: 1;
+  width: auto;
+  padding: 5px;
+  margin: auto;
+}
+.byline-img .avatar {
+  margin: auto;
+  border-radius: 10px;
+}
+.byline-name {
+  grid-column: 1;
+  grid-row: 2;
+  font: italic 12px sans-serif;
+  width: auto;
+  padding: 0;
+  margin: 0;
+}
+.byline-name p {
+  padding: 0;
+  margin: 0;
+}
+.byline-text {
+  padding: 5px;
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  font-size: 14px;
+  margin-left: 20px;
+}
+.byline-text p {
+  padding: 0;
+  margin: 0;
+  font: normal 14px sans;
+}
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: scroll;
+  background-color: #424242;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fff;
+  font: 100.01%/1 serif;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+.inner-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
+ * My own settings, not currently in their own module.
+ */

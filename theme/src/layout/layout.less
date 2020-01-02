@@ -1,0 +1,200 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+
+ .inner-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 5px;
+    box-sizing: border-box;
+    .clearfix();
+}
+
+.wrap-sidebar {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.right {
+    float: right;
+}
+
+/* 
+ * Header layout
+ */
+
+.outer-wrap-header {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    .clearfix();
+}
+
+.inner-wrap-header {
+    max-width: 100%;
+}
+
+.region-header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: stretch;
+}
+
+.region-header-col-1 {
+    flex: 0 0 150px;
+}
+
+.region-header-col-3 {
+    flex: 0 0 50px;
+}
+
+.region-header-col-2 {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    flex: 1 1 auto;
+    align-self: flex-end;
+}
+
+.site-logo {
+    display: none;
+}
+
+.rm-desktop li ul li a {
+    background-color: #333;
+    &:hover {
+        background-color: #333;
+    }
+}
+
+
+/* 
+ * Main layout
+ */
+
+.region-flash {
+    margin: 10px 0;
+}
+
+.article {
+    padding: 10px;
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    width: 20%;
+    float: left;
+}
+
+.region-main {
+    width: 100%;
+    float: left;
+    &.has-sidebar-left,
+    &.has-sidebar-right {
+        width: 80%;
+    }
+
+    &.has-sidebar-left&.has-sidebar-right {
+        width: 60%;
+    }
+}
+
+.byline {
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    width: 500px;
+    border: 2px solid #333;
+    margin-top: 10px;
+    padding-left: 5px;
+    background-color: #fff;
+  }
+
+  .byline-img {
+    grid-column: 1;
+    grid-row: 1;
+    width: auto;
+    padding: 5px;
+    margin: auto;
+  }
+
+  .byline-img .avatar {
+    margin: auto;
+    border-radius: 10px;
+  }
+
+  .byline-name {
+    grid-column: 1;
+    grid-row: 2;
+    font: italic 12px sans-serif;
+    width: auto;
+    padding: 0;
+    margin: 0;
+  }
+
+  .byline-name p {
+    padding: 0;
+    margin: 0;
+  }
+
+  .byline-text {
+    padding: 5px;
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    font-size: 14px;
+    margin-left: 20px;
+  }
+
+  .byline-text p {
+    padding: 0;
+    margin: 0;
+    font: normal 14px sans;
+  }
+
+/* 
+ * Footer layout
+ */
+
+.outer-wrap-footer {
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-column-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer-column {
+    flex: 1 1 33%;
+    min-width: 200px;
+}
+
+.footer-column-x {
+    padding: 10px;
+}
+
+.site-footer {
+    text-align: center;
+}
+
+// /* Hide submenu, leave this to kmom02 */
+// .rm-desktop ul {
+//     display: none;
+// }
+
+// /* Hide responsive/mobile menu, leave this to kmom02 */
+// .rm-navbar-max {
+//     display: none;
+// }
