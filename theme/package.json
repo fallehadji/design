@@ -38,7 +38,7 @@
   "devDependencies": {
     "@desinax/css-styleguide": "^1.0.0",
     "eslint": "^4.19.1",
-    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react": "^7.18.0",
     "javascript-style-guide": "^0.9.10",
     "jsonlint": "^1.6.3",
     "less": "^3.8.1",

@@ -1,3 +1,2 @@
-#### Footer col 1
-
-Testar att ändra i ett block.
+#### <center>Vem är jag?</center>
+[FIGURE src="image/jag.png?width=100" caption="Fredrik Gustafsson" class="left"]<div markdown=1>Har studerat lite webb-programmering på egen hand och alltid haft ett intresse av programmering men som det aldrig blivit något konkret av privat. Jag kände det vore kul att få lite akademisk touch på det och kanske lite extra motivation. Till vardags jobbar jag som produktionstekniker och har tidigare läst till energiingenjör.</div>
