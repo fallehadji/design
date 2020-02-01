@@ -1,4 +1,5 @@
 @import (reference) "../@desinax/typographic-grid/less/typography-defaults.less";
+@import (reference) "kmom04.less";
 
 /**
  * Base style to affect HTML elements on a general scale.
@@ -8,9 +9,9 @@
 // @colorBody: #333;
 // // @fontFamilyBody: serif;
 
-@bgColorHtml: #333;
-@bgColorBody: #fff;
-@colorBody: #333;
+// @bgColorHtml: #333;
+// @bgColorBody: #fff;
+// @colorBody: #333;
 // //  @fontFamilyBody: serif;
 
 html {
@@ -42,7 +43,7 @@ img {
 .site-logo-text {
     a {
         font: small-caps 1.5em helvetica;
-        color: #fff;
+        color: @colorHtml;
         text-decoration: none;
     }
     a:hover {
